@@ -101,12 +101,16 @@
         place-items: center;
         height:60vh;
         width: 100%;
-        margin-top: -200%;
+        position: absolute;
+        top:100%;
+        left:-100%;
         border-top: 1px solid #000;
         border-bottom: 1px solid #000;
     }
     #navbar.active{
-        margin-top: 0%;
+        position: absolute;
+        top:0%;
+        left:0%;
         background-color: var(--primary-color);   
         display: grid;
         place-items: center;
@@ -291,7 +295,3 @@
         font-size: 14px;
     }
 }
-
-
-
-
